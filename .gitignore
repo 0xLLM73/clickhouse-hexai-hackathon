@@ -1,0 +1,74 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p8
+*.p12
+*.crt
+*.cer
+*.jks
+id_rsa*
+id_ed25519*
+secrets/
+credentials/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and local runtime
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+.vite/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+.python-version
+
+# Data artifacts
+*.csv
+*.tsv
+*.parquet
+*.arrow
+*.duckdb
+*.sqlite
+*.sqlite3
+data/raw/
+data/private/
+
+# Terraform / deployment state
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Package manager noise
+.pnpm-store/
+.yarn/
+!.yarn/releases/
+!.yarn/plugins/
+!.yarn/sdks/
+!.yarn/versions/
