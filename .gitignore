@@ -1,6 +1,6 @@
 # Environment and secrets
 .env
-.env.*
+.env*.local
 !.env.example
 *.pem
 *.key
@@ -30,13 +30,14 @@ temp/
 .cache/
 
 # Node / frontend
-node_modules/
-dist/
-build/
-.next/
-.nuxt/
-.vite/
-coverage/
+.next
+node_modules
+dist
+build
+.nuxt
+.vite
+coverage
+*.tsbuildinfo
 
 # Python
 __pycache__/
